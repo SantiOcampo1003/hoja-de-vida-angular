@@ -1,0 +1,19 @@
+
+  .header{
+    background-image: url(/assets/FondoHeader3.jpg)  ;
+    background-position: 100px;
+    background-size: contain;
+    font-size: x-large ;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 0px;
+  }
+  
+p{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top:100px ;
+    margin-left:100px ;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}

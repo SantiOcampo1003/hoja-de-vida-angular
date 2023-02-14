@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+  }
+  
+    
+    body {
+      background-image: url(/assets/pexels-anni-roenkae-5278595.jpg);
+      background-position: 100%;
+      color: white;
+      font-family: 'Roboto Mono', monospace;
+      font-weight: 400;
+      margin: 0;
+    }
+    
+    h2 {
+      margin: 0; 
+      margin-bottom: 20px;
+      border-bottom: 1px solid rgb(255, 255, 255);
+      padding-bottom: 15px;
+    }
+    h2 i {
+      color: #ffffff;
+    }
+    
+    h3 {
+      color: #f2ba00;
+    }
+    
+    
+    #titulo-principal {
+      font-size: 40px;
+      font-family: 'Roboto Mono', monospace;
+      font-weight: 700;
+      text-align: start;
+      margin-bottom: 50px;
+  
+    }
+    
+  
+    .header  {
+      background-image: url(/asstes/pexels-anni-roenkae-5278595.jpg);
+      margin-bottom:100px;
+      display: block ;
+      margin-top: -10px;
+     text-align: start ;
+     font-size: unset ;
+     display: flex;
+    }
+    .header .circular--square  {
+      display: block;
+      margin: auto;
+      border-radius: 50%;
+      width: 10 px ;
+      height: 300px;
+      margin-bottom: 10px;
+  
+    }
+  
+  
+    .card {
+      padding: 20px;
+      margin-right: 20px;
+      min-width: 100%;
+      margin-bottom: 0%;
+    }
+    
+    .lista {
+      margin: 0;
+      padding: 0;
+      text-align: start ;
+      margin-bottom: 30px;
+    }
+  
+    .lista > li {
+      list-style:none;
+    }
+    
+  
+    .main {
+      display: flex  ;
+      flex-wrap:wrap-reverse;
+      justify-content: center ;
+    }
+  
+    
+    .skill {
+      margin-bottom: 10px;
+    }
+    .skill .skill-description {
+      display: flex;
+      justify-content: start;
+      margin-bottom: 0px;
+    }
+    .skill .progress {
+      height: 20px;
+      background-color: #FFF;
+      border-radius: 10px;
+    }
+    .skill .progress.percentage {
+      transition: width 2s ease;
+      width: 0;
+      background-color: #F6A737;
+      animation-name: progress-bar;
+      animation-duration: 2s;
+    }
+    
+    @keyframes progress-bar {
+      0% {
+        width: 0;
+      }
+      50% {
+        width: 100%;
+      }
+      100% {
+        width: 0;
+      }
+    }
+    

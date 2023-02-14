@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+body {
+    background-image: url(/assets/fondo2.jpg);
+    background-position: -100%;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  h1 {
+    color: rgb(255, 255, 255);
+  }
+  
+  h2 {
+    color: rgb(249, 249, 249);
+  }
+  
+  h3 {
+    color: rgb(231, 231, 231);
+  }
+  
+  p {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+  }
+  
+  html, body {
+    height: 100%;
+  }
+ 
+  header {
+    background: lightgray;
+    padding: 10px;
+  }
+  
+  main {
+    flex: 1;
+    padding: 10px;
+  }
